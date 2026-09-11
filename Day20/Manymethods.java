@@ -45,3 +45,8 @@ public class Manymethods {
     }
 }
 
+// Activities
+
+// 1. Send an message and receive it.
+// go bring the mobile
+// buy new bike
