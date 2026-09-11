@@ -1,4 +1,4 @@
-package Day16;
+package Day18;
 
 public class Printstars {
     public static void main(String[] args)
