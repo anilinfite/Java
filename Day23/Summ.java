@@ -44,25 +44,25 @@ public class Summ {
 // Syso (arr,30) || Is there - boolean 
 // Syso (arr, 100)
 
-    static boolean search(int[] arr, int key)
-    { 
-        for(int x : arr)
-            if(x == key)
-            {
-                return true;
-            }
-            return false;
-    }
+    // static boolean search(int[] arr, int key)
+    // { 
+    //     for(int x : arr)
+    //         if(x == key)
+    //         {
+    //             return true;
+    //         }
+    //         return false;
+    // }
 
-    public static void main(String[] args)
-    {
-        int[] arr = {10, 20, 30, 40, 50};
-        System.out.println(search(arr, 30)); // True
-        System.out.println(search(arr, 100)); // False
+    // public static void main(String[] args)
+    // {
+    //     int[] arr = {10, 20, 30, 40, 50};
+    //     System.out.println(search(arr, 30)); // True
+    //     System.out.println(search(arr, 100)); // False
         
-    }
+    // }
 
-}
+
 // for each - read elements sequentialy forward only.
 // for loop - full controll (For, Back, skip, jump, modify using index)
 // for each is  meant for processing every element, not controlling traversal.
@@ -85,3 +85,40 @@ public class Summ {
 // deployment release engineer // sql 
 // end 
 
+// Write an code using for, foreach, methods, array, scanner class
+// Write program on Strings
+// Write program on instances
+
+
+    static void show(int...a)
+    {
+        System.out.println("Arguments");
+        for(int i=0; i<a.length; i++)
+        {
+            System.out.print(a[i]);
+            if(i != a.length-1)
+        {
+            System.out.print(",");
+        }
+        }
+        
+    }
+
+    // static void show(int a)
+    // {
+    //     System.out.println("One Arguments");
+    // }
+
+    // static void show(int a, int b)
+    // {
+    //     System.out.println("Two Arguments");
+    // }
+    public static void main(String[] args)
+    {
+        show();
+        show(15);
+        show(15, 16);
+        show(15, 16, 17, 18);
+
+    }
+}
