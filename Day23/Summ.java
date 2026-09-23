@@ -80,3 +80,8 @@ public class Summ {
 // you can't perform indices based algorithms // very very important
 // (Bubble sort, Binary Search in these programs we cannot do it)
 
+// Login Home page in details web page 
+// backend front end // full stack developer // UI / UX 
+// deployment release engineer // sql 
+// end 
+
