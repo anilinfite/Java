@@ -1,4 +1,4 @@
-package Day14;
+package Day14; 
 
 public class LWDLoopPrograms {
     public static void main(String[] args)
