@@ -1,7 +1,7 @@
-
+package Day24;
 class Qstn
 {
-    static void evencount(int ... nums)
+    static int evencount(int ... nums)
     {
         int count = 0;
         for(int n : nums)
@@ -15,6 +15,6 @@ class Qstn
     }
     public static void main(String[] args)
     {
-        System.out.println("Even numbers are:"+ eventcoun 10, 20, 30, 40, 50);
+        System.out.println("Even numbers are:"+ evencount(10,20,30,40,50));
     }
 }

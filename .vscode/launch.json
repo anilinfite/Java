@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Equalsprogram",
+            "request": "launch",
+            "mainClass": "Day13.Equalsprogram",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
+            "name": "Qstn",
+            "request": "launch",
+            "mainClass": "Day24.Qstn",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
             "name": "Summ",
             "request": "launch",
             "mainClass": "Day23.Summ",
