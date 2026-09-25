@@ -1,4 +1,4 @@
-package Day14;
+package Day14; 
 
 public class LWDLoopPrograms {
     public static void main(String[] args)
@@ -19,6 +19,6 @@ public class LWDLoopPrograms {
         for(int i = 5; i <= 10; i++)
         {
             System.out.println(mul + " x " + i + " = " + i);
-        }
+        } 
     }
 }
