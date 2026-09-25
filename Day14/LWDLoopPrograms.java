@@ -19,6 +19,6 @@ public class LWDLoopPrograms {
         for(int i = 5; i <= 10; i++)
         {
             System.out.println(mul + " x " + i + " = " + i);
-        }
+        } 
     }
 }
