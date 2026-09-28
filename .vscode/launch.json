@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Node",
+            "request": "launch",
+            "mainClass": "Day24.Node",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
             "name": "Equalsprogram",
             "request": "launch",
             "mainClass": "Day13.Equalsprogram",
