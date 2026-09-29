@@ -17,14 +17,8 @@ public class Singlylinkedlist {
         newNode.next = null;
 
         // Test case 1 head is null or list is empty
-        if(currentHead == null)
+      //  if(currentHead != null)
         {
-            return newNode;
-        }
-        else
-        {
-            // Test case 2 - list is not empty or there are one or more nodes.
-            return newNode;
-        }
+        } 
     }
 }
