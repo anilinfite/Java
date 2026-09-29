@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Singlylinkedlist",
+            "request": "launch",
+            "mainClass": "Day24.Singlylinkedlist",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
             "name": "Node",
             "request": "launch",
             "mainClass": "Day24.Node",
