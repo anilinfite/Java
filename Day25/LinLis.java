@@ -59,7 +59,7 @@ class LinLis {
                                 System.out.print(currentlastNode.data + " -> ");
                                 currentlastNode = currentlastNode.next;
                             }
-                                System.out.print("null");
+                                System.out.print();
                         }
     public static void main(String[] args){
 
