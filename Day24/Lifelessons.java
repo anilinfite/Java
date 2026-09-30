@@ -1,6 +1,6 @@
 package Day24;
 
-class LL {
+class Lifelessons {
     Node head;
 
     class Node{
@@ -14,7 +14,7 @@ class LL {
         public void insertAtFirst(int data) {
             Node newNode = new Node(data);
             if(head == null){
-                newNode = head;
+                head = newNode;
                 return;
             }
             newNode.next = head;
@@ -27,13 +27,13 @@ class LL {
                 } 
                 Node currentNode = head;
                 while(currentNode != null) {
-                    System.out.println(currentNode.data + " -> ");
+                    System.out.print(currentNode.data + " -> ");
                     currentNode = currentNode.next;
                 }
-                    System.out.println("null");
+                    System.out.print("null");
             }
     public static void main(String[] args) {
-        LL list = new LL();
+        Lifelessons list = new Lifelessons();
         list.insertAtFirst(10);
         list.insertAtFirst(20);
         list.insertAtFirst(30);

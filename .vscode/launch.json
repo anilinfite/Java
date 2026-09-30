@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Lifelessons",
+            "request": "launch",
+            "mainClass": "Day24.Lifelessons",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
+            "name": "LinLis",
+            "request": "launch",
+            "mainClass": "Day25.LinLis",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
             "name": "LL",
             "request": "launch",
             "mainClass": "Day24.LL",
