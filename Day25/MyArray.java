@@ -11,6 +11,7 @@ public class MyArray {
     }
     // insert at end
     public void inserAtENd(int value){
+        System.out.println("After Inserting End Values");
         if(rightIndex == length)
         {
             System.out.println("Array is Full");
@@ -21,6 +22,7 @@ public class MyArray {
     }
     // insert at start
     public void insertAtStart(int value){
+        System.out.println("After Inserting Start Values");
         if(rightIndex == length)
         {
             System.out.println("Array is Full");
@@ -40,6 +42,7 @@ public class MyArray {
     }
     //insert at any position
     public void insertAtanyPosition(int position, int value){
+        System.out.println("Inserting at any Position");
         if(rightIndex == length)
         {
             System.out.println("Array is Full");
@@ -48,6 +51,7 @@ public class MyArray {
         if(position < 0 || position > rightIndex)
         {
             System.out.println("Invalid Position");
+            return;
         }
             // Shift and insert
             for(int i = rightIndex-1; i >= position; i--)
