@@ -5,20 +5,31 @@ public class ArrayDemo {
     public static void main(String[] args){
         MyArray myArray = new MyArray();
 
-        System.out.println("Initial Array");
+        // System.out.println("Initial Array");
+        // myArray.printElements();
+
+        System.out.println("After Inserting Value");
         myArray.printElements();
 
-        myArray.insertAtStart(10);
+        System.out.println(10);
+        System.out.println(20);
+        System.out.println(30);
+        System.out.println(40);
+        System.out.println(50);
+
+        myArray.deleteFromStart();
+        myArray.deleteFromEnd();
+        myArray.deleteFromAnyPosition(2);
         myArray.printElements();
 
+        // myArray.insertAtStart(10);
+        // myArray.printElements();
 
-        myArray.inserAtENd(20);
-        myArray.printElements();
+        // myArray.inserAtENd(20);
+        // myArray.printElements();
 
-        
-
-        myArray.insertAtanyPosition(3, 25);
-        myArray.printElements();
+        // myArray.insertAtanyPosition(3, 25);
+        // myArray.printElements();
 
         // // Invalid Positions
         // myArray.insertAtanyPosition(-1, 99);

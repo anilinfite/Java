@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Lisearch",
+            "request": "launch",
+            "mainClass": "Day25.Lisearch",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
             "name": "ArrayDemo",
             "request": "launch",
             "mainClass": "Day25.ArrayDemo",

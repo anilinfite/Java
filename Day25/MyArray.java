@@ -61,6 +61,64 @@ public class MyArray {
                 array[position] = value;
                 rightIndex++;
     }
+    //================ Deletion ========================
+
+    // Delete from end
+    public void deleteFromEnd()
+    {
+        if(rightIndex == 0)
+        {
+            System.out.println("Array is Empty");
+            return;
+        }
+        array[rightIndex - 1] = 0;
+        rightIndex--;
+    }
+
+    // Delete at Start
+    public void deleteFromStart()
+    {
+        if(rightIndex == 0)
+        {
+            System.out.println("Array is Empty");
+            return;
+        }
+        // Shift elements from index = 0(from start)
+        for(int i = 0; i < rightIndex; i++)
+        {
+            array[i] = array[i+1];
+        }
+            rightIndex --;
+            array[rightIndex] = 0;
+    }
+
+    // Delete from any position
+    public void deleteFromAnyPosition(int position)
+    {
+        if(rightIndex == 0)
+        {
+            System.out.println("Empty Array");
+            return;
+        }
+        if(position < 0 || position >= rightIndex)
+        {
+            System.out.println("Invalid Position");
+            return;
+        }
+
+        //shift elements from index = 0 (from start)
+        for(int i = 0; i < rightIndex; i++)
+        {
+            array[i] = array[i+1];
+        }
+            rightIndex --; // We are 
+            array[rightIndex] = 0;
+        
+
+
+    }
+    
+    
     // Print Elements
     public void printElements(){
         System.out.println("index\tvalue");
