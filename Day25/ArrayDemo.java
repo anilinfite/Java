@@ -17,7 +17,7 @@ public class ArrayDemo {
 
         
 
-        myArray.insertAtanyPosition(2, 25);
+        myArray.insertAtanyPosition(3, 25);
         myArray.printElements();
 
         // // Invalid Positions
