@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Testpgm",
+            "request": "launch",
+            "mainClass": "Day25.Testpgm",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
             "name": "Lisearch",
             "request": "launch",
             "mainClass": "Day25.Lisearch",
