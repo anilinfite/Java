@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Leetcodepr",
+            "request": "launch",
+            "mainClass": "Day25.Leetcodepr",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "Test",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
             "name": "Testpgm",
             "request": "launch",
             "mainClass": "Day25.Testpgm",
