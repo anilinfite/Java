@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ArrInt",
+            "request": "launch",
+            "mainClass": "Day25.ArrInt",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
             "name": "Leetcodepr",
             "request": "launch",
             "mainClass": "Day25.Leetcodepr",
