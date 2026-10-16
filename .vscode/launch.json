@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SwapArray",
+            "request": "launch",
+            "mainClass": "Day25.SwapArray",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
             "name": "ArrInt",
             "request": "launch",
             "mainClass": "Day25.ArrInt",
