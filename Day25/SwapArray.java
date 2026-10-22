@@ -28,7 +28,7 @@ public class SwapArray {
                  boolean IsUpperCase = true;
              }
                 continue;
-            }
+            } 
     }
 
     public void IsNumber()
