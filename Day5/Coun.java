@@ -14,5 +14,6 @@ public class Coun {
     }
     public static void main(String[] args){
         fun(20);
+        System.out.println("count = " + count);
     }
 }
