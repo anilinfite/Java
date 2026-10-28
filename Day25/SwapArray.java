@@ -6,7 +6,6 @@ public class SwapArray {
     char IsLowerCase = 'a';
     int array[] = {'a', 'A', '-', '1', '2', 'b', 'D', '*'};
 
-
     public void IsLowerCase()
     {
         System.out.println("Invalid LowerCase Print");
@@ -42,7 +41,6 @@ public class SwapArray {
                    continue;
             }
     }
-
     public static void main(String[] args)
     {
         SwapArray s1 = new SwapArray();
@@ -50,5 +48,4 @@ public class SwapArray {
         s1.IsUpperCase();
         s1.IsNumber();
     }
-
 }

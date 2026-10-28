@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Coun",
+            "request": "launch",
+            "mainClass": "Day5.Coun",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
+            "name": "Recurs",
+            "request": "launch",
+            "mainClass": "Day5.Recurs",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
+            "name": "Recurssion",
+            "request": "launch",
+            "mainClass": "Day5.Recurssion",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
+            "name": "Fun",
+            "request": "launch",
+            "mainClass": "Day5.Fun",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
             "name": "SwapArray",
             "request": "launch",
             "mainClass": "Day25.SwapArray",
